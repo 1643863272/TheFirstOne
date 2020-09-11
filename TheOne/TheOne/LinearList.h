@@ -9,8 +9,8 @@ template <class T>
 class Linearest {
 
 public:
-	virtual Linearest() = 0;
-	virtual ~Linearest() = 0;
+	Linearest();
+	~Linearest();
 
 	virtual int Size()const = 0;     //最大容量长度
 	virtual int Length()const = 0;   //当前长度
